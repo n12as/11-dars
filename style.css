@@ -1,0 +1,58 @@
+body {
+    background-color: bisque;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #fff;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.wrapper div {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper .first {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wrapper .second {
+    background-color: green;
+    position: absolute;
+    right: 0;
+}
+
+.wrapper .third {
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrapper .fourth {
+    background-color: purple;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.wrapper .fifth {
+    background-color: gray;
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+}
